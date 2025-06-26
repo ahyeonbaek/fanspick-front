@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+# 🛍️ FansPick
+>판매자 등록부터 구매까지 가능한 통합형 이커머스 웹사이트입니다<br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 📌 실행 방법
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### 프론트
 
-## Expanding the ESLint configuration
+    npm install
+    npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#### 백엔드
+    npm install
+    node index.js
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+##  🛠️ 기술 스택
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+___FE___ : vite, react, react-hook-form, typeScript, moduleCSS <br />
+___BE___ : node.js, express, mongDB <br />
+___DevOps___ : AWS S3 <br />
+___etc___: notion, figma, git, gitLab
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📄 주요 기능 
+
+⛳️ ___로그인 & 로그아웃 기능___
+
+ - 소셜 로그인은 Passport 기반 OAuth 방식으로, 일반 로그인은 JWT 기반 로컬 인증으로 분리 구현
+ - 인증되지 않은 사용자가 로그인이 필요한 페이지에 접속할 경우 로그인 페이지로 리다이렉트
+
+⛳️ ___프로필 관리 기능___
+
+  - 사용자의 프로필 정보를 수정 및 저장 (사용자 이름, 이메일, 프로필 사진, 배송 주소 등)
+  - AWS S3를 이용한 프로필 이미지 업로드
+  - react-daum-postcode 이용한 배송 주소 업데이트
+
+⛳️ ___장바구니 기능___
+
+  - localstorage를 활용한 장바구니 담기
+  - 장바구니 목록 조회
+  - +,- 버튼으로 수량 조절
+  - 선택한 상품 또는 전체 상품 금액 계산 및 삭제
+
+⛳️ ___즐겨찾기 기능___
+
+- localstorage를 활용한 즐겨찾기 목록 조회
+- 선택한 상품 장바구니 목록으로 이동 및 삭제
+
+⛳️ ___주문 및 결제 기능___
+
+- 상품 상세조회 페이지에서 결제 , 장바구니의 선택된 상품 결제
+- PG사 api를 이용한 카카오페이 결제
+
+⛳️ ___판매자 전용 기능___
+
+- 로그인시 판매자 전용 계정 로그인 선택
+- 판매 상품 등록, 수정, 삭제
+- 판매자 권한에 따라 접근할 수 있는 페이지 분리 
+
+⛳️ ___플래시 메시지 기능___
+
+- toastify를 활용한 여러 인터랙션에서 작업 수행에 성공/실패 했다는 문구를 일시적으로 보여주는 플래시 메시지 구현
