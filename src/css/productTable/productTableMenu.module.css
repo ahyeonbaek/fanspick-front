@@ -1,0 +1,47 @@
+.content_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content {
+  display: flex;
+  /* justify-content: space-between;
+    width: 100%; */
+  padding: 10px 20px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 500px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.children {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox {
+  width: 90px;
+}
+
+.a {
+  cursor: pointer;
+}

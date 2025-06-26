@@ -1,0 +1,46 @@
+.footerContainer {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    height: 50px;
+    width: auto;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcon {
+    height: 24px;
+    width: 24px;
+}
+
+.socialIcon:hover {
+    transform: scale(1.2);
+}
+
+.footerCopyright {
+    font-size: 12px;
+    color: #717171;
+    text-align: center;
+}

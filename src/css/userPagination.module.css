@@ -1,0 +1,4 @@
+.pageButton button:disabled {
+  background-color: #ffd700;
+  border-radius: 10%;
+}

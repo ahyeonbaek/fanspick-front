@@ -1,0 +1,35 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.image {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.button {
+  width: 20%;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,139 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productDetailWrapper {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+
+.productImageBox {
+  width: 50%;
+  padding-right: 3rem;
+  border-right: 1px solid rgb(242, 242, 242);
+}
+
+.productImage {
+  width: 90%;
+  object-fit: cover;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.productInfoBox {
+  width: 50%;
+}
+
+.productTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 1.5rem;
+  color: #e60012;
+  margin-bottom: 20px;
+}
+
+.productDescription {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+.productCount {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.productCount button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buyButton {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 30px;
+}
+
+.secondBtnWrap {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.secondBtnWrap button {
+  border: none;
+  transition: background-color 0.2s ease;
+}
+.secondBtnWrap button:last-child {
+  background-color: #ffd700;
+}
+/* .secondBtnWrap button:hover {
+  background-color: #555;
+  color: white;
+} */
+
+/************* tabs 컴포넌트 ***************/
+.tabs {
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.tabsMenuList {
+  display: flex;
+  background-color: #fff;
+}
+
+.tabsMenu {
+  flex: 1;
+  text-align: center;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  color: #666;
+  border-bottom: 2px solid #ddd;
+}
+
+.tabsMenu.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffe300;
+  color: black;
+}
+
+.tabsMenu:hover {
+  background-color: #f1f1f1;
+}
+
+.tabsPannel {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* * * * * * * * * * * * * * * * * * * */
+.detailImageWrap {
+  width: 1000px;
+}
+.detailImage {
+  width: 100%;
+  height: auto;
+}
+/* 리뷰 */
+.reviewListWrap {
+  width: 100%;
+}

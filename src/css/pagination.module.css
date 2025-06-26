@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.pageContainer {
+  display: flex;
+  align-items: center; 
+  gap: 8px;
+}
+
+.pageNavigate button,
+.pageButton button {
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  background: none; 
+  color: #000000;
+}
+
+.pageNavigate button:disabled{
+  background: none; 
+  color: #a6a6a6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,103 @@
+.orderPageWrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 16px;
+  box-sizing: border-box;
+}
+.h2 {
+  padding-bottom: 1rem;
+}
+.productInfoWrap {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.totalPriceBox {
+  background-color: #fef3c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.h3 {
+  padding: 50px 0 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+.addressSearchBtn {
+  margin-top: 1rem;
+  transition: 0.2s all;
+  background-color: #ffd700;
+}
+
+.inputBoxWrap {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 20px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputBoxWrap input,
+.inputBoxWrap .ys-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inputBox label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  font-weight: bold;
+}
+
+.paymentBtn {
+  margin-top: 30px;
+  background-color: #ffd700;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 리스트 컴포넌트 부분 스타일 */
+.order_wrap {
+  border: 1px solid red;
+}
+.Header_wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  border-bottom: solid 1px #838383;
+  padding: 0 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 70px;
+}

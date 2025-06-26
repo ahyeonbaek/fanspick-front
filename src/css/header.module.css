@@ -1,0 +1,100 @@
+.header {
+    background-color: #ffd700;
+    padding: 10px 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;        
+    left: 0;         
+    width: 100%;
+    z-index: 1000;  
+    box-sizing: border-box;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.logoImage {
+    height: 50px;
+}
+
+.logoText {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+.navLink {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 5px 10px;
+}
+
+.active, .navLink:hover {
+    color: black;
+    font-weight: 900;
+    padding: 5px 10px;
+    text-underline-offset: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.1); 
+}
+
+.profileIcon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profileIcon:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.1); 
+}
+
+.loginText, .logoutText {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.loginText:hover, .logoutText:hover {
+    transform: scale(1.1); 
+}

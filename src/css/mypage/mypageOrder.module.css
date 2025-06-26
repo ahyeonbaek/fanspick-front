@@ -1,0 +1,36 @@
+.table_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.order_wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px #d9d9d9;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.day {
+  padding: 20px;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 20px;
+  height: 70px;
+}
+
+.review_button {
+  width: 150px;
+  height: 50px;
+}
+
+.none_review_button {
+  display: none;
+}

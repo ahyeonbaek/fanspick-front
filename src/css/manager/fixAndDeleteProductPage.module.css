@@ -1,0 +1,208 @@
+.body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid rgb(217, 217, 217);
+}
+
+.button:hover {
+  background-color: #ffacac;
+  border: 1px solid transparent;
+}
+
+.addProduct {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addProductInfo {
+  position: relative;
+  width: 100%;
+}
+
+.addProductPhoto {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* 기본이미지 */
+.addProductPhotoPreviewImg {
+  width: 50px;
+  padding: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.addProductPhotoPreviewImg:hover {
+  border: 1px solid black;
+}
+/* 업로드시 이미지 */
+.addProductPhotoImg {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.addProductPhotoImg:hover {
+  background-color: #727f88;
+}
+
+.addProductPhotoDiv {
+  display: flex;
+}
+.addProductPhotoDetailDefaultImg {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-top: 11px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.addProductPhotoDetailDefaultImg:hover {
+  background-color: #727f88;
+}
+.addProductImgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.addProductImgContainer > div {
+  position: relative;
+}
+.addProductDetailImgContainer > div {
+  position: relative;
+}
+.addProductPhotoDetailImg {
+  width: 900px;
+  cursor: pointer;
+}
+.cancel {
+  position: absolute;
+  top: 18px;
+  left: 87%;
+  width: 11%;
+}
+.overlay {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 201px;
+  height: 203px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+.overlayDetail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+.addProductImgContainer > div:hover .overlay {
+  opacity: 1;
+}
+
+.imageContainer {
+  position: relative;
+  width: 900px;
+  margin: 10px;
+}
+.addProductDetailImgContainer > div:hover .overlayDetail {
+  opacity: 1;
+}
+
+.deleteImg {
+  font-size: 40px;
+  color: white;
+}
+
+.deleteDetailImg {
+  font-size: 100px;
+  color: white;
+}
+
+.addProductPhotoInput {
+  display: none;
+}
+
+.inputWrap {
+  display: flex;
+  gap: 2rem;
+}
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.textarea {
+  margin-bottom: 1rem;
+}
+
+.inputCategory {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.inputCategoryLabel {
+  display: flex;
+  gap: 3px;
+}
+
+.input label {
+  font-size: 16px;
+  margin: 16px 0 5px 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 16px 0;
+}
+.submitButton {
+  background-color: #ffacac;
+}
+
+
+.customToastDiv {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-left: -7.5%;
+}
+

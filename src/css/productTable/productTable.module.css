@@ -1,0 +1,159 @@
+.Header_wrap {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  border-bottom: solid 1px #838383;
+  padding: 0 20px;
+}
+
+.Header_menu_first {
+  color: #838383;
+  width: 500px;
+}
+
+.Header_menu {
+  color: #838383;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.Header_menu2 {
+  color: #838383;
+  width: 160px;
+  display: flex;
+}
+
+.quantity_wrap {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  gap: 10px;
+  margin-left: 70px;
+}
+
+.quantityButton {
+  border: none;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.quantity_p {
+  font-size: 16px;
+}
+
+.checkbox_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.checkbox_button {
+  border: none;
+  background-color: #ffffff;
+  font-size: 15px;
+}
+
+.content_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  height: 70px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 500px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.children {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox {
+  width: 90px;
+}
+
+.increase_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.increase {
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.quantity_box {
+  display: flex;
+  align-items: center;
+}
+
+.deletebutton {
+  background-color: #ffffff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.productcontent {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.trash {
+  width: 30px;
+}
+
+.bookmark_wrap {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  border-bottom: solid 1px #838383;
+  padding: 0 20px;
+}
+
+.bookmark_content {
+  display: flex;
+  gap: 70px;
+  /* justify-content: center; */
+  padding: 10px 20px;
+  height: 70px;
+}
