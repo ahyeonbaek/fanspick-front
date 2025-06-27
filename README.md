@@ -1,6 +1,8 @@
 # 🛍️ FansPick
->판매자 등록부터 구매까지 가능한 통합형 이커머스 웹사이트입니다.<br />
-
+>판매자 등록부터 구매까지 가능한 통합형 굿즈 이커머스 웹사이트입니다.<br />
+회원가입 시 판매자 or 사용자 중 이용할 type을 선택하면, 역할에 따라 접근할 수 있는 페이지가 나누어집니다. <br />
+판매자는 상품을 등록하고, 관리할 수 있으며,
+사용자는 결제 시스템을 통해 상품을 구매할 수 있습니다.
 
 ## 📌 실행 방법
 
@@ -17,8 +19,8 @@
 
 ##  🛠️ 기술 스택
 
-___FE___ : vite, react, react-hook-form, typeScript, moduleCSS <br />
-___BE___ : node.js, express, mongDB <br />
+___FE___ : vite, react, react-hook-form, typeScript, moduleCSS, axios <br />
+___BE___ : node.js, express, mongDB, mongoose <br />
 ___DevOps___ : AWS S3 <br />
 ___etc___: notion, figma, git, gitLab
 
@@ -68,6 +70,8 @@ ___etc___: notion, figma, git, gitLab
 ⛳️ ___플래시 메시지 기능___
 
 - toastify를 활용한 여러 인터랙션에서 작업 수행에 성공/실패 했다는 문구를 일시적으로 보여주는 플래시 메시지 구현
+
+----
 
   ## 플로우차트
 
