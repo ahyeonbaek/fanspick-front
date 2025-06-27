@@ -68,3 +68,7 @@ ___etc___: notion, figma, git, gitLab
 ⛳️ ___플래시 메시지 기능___
 
 - toastify를 활용한 여러 인터랙션에서 작업 수행에 성공/실패 했다는 문구를 일시적으로 보여주는 플래시 메시지 구현
+
+  ## 플로우차트
+
+![Image](https://github.com/user-attachments/assets/ca15171a-ad17-461a-b8ab-9d40fb039cd5)
