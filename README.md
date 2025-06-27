@@ -19,10 +19,11 @@
 
 ##  🛠️ 기술 스택
 
-___FE___ : vite, react, react-hook-form, typeScript, moduleCSS, axios <br />
-___BE___ : node.js, express, mongDB, mongoose <br />
-___DevOps___ : AWS S3 <br />
-___etc___: notion, figma, git, gitLab
+**FE** :  vite, react, react-hook-form, typeScript, moduleCSS, axios <br />
+___BE___ : node.js, express, mongDB, mongoose, jwt, paspport <br />
+___DevOps___ : AWS S3, gitLab
+ <br />
+___etc___: notion, figma
 
 ---
 
